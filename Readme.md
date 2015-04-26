@@ -1,14 +1,14 @@
 ##Introduction
-This repository contains my work for the course project for the Coursera course "Getting and Cleaning data", part of the Data Science specialization. What follows first are my notes on the original data.
+This repository contains work done for the course project of Coursera course "Getting and Cleaning data". Below is the information provided about the data and steps to run this script.
 
 ##About the raw data
 The features (561 of them) are unlabeled and can be found in the x_test.txt. The activity labels are in the y_test.txt file. The test subjects are in the subject_test.txt  & subject_train.txt file.
 
 
 ##About the script and the tidy dataset
-run_analysis.R will readwhich will merge the test and training sets together. Prerequisites for this script:
+ Prerequisites to run this script:
 	1	the UCI HAR Dataset must be extracted and..
-	2	the UCI HAR Dataset must be availble in a directory called "UCI HAR Dataset"
+	2	the UCI HAR Dataset must be available in a directory called "UCI HAR Dataset"
 	3	Place the script in the UCI HAR Dataset and open from R and execute the dataset
 	4	The Test data and the training dataset is read into R
 	5	Labels are added and the datasets are merged and final dataset is created
